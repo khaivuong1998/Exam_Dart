@@ -91,11 +91,11 @@ class Student extends Persion {
   }
 
   List<Student> output() {
-    List<Student> listStudent1 = [];
-    for (int i = 0; i < listStudent.length; i++) {
-      listStudent1[i] = listStudent[i];
-    }
-    return listStudent1;
+    // List<Student> listStudent1 = [];
+    // for (int i = 0; i < listStudent.length; i++) {
+    //   listStudent1[i] = listStudent[i];
+    // }
+    return listStudent;
   }
 
   void avgMark() {

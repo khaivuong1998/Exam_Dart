@@ -1,4 +1,4 @@
-class Persion {
+abstract class Persion {
   int? id;
   String? name;
   String? numberPhone;
@@ -13,7 +13,5 @@ class Persion {
     return 'Persion{id: $id, name: $name, numberPhone: $numberPhone, address: $address}';
   }
 
-  void input() {
-
-  }
+  void input() {}
 }

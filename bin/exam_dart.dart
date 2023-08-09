@@ -38,10 +38,10 @@ void main(List<String> arguments) {
     number = int.parse(string);
     switch (number) {
       case 1:
-        student.output();
+        print(student.output());
         break;
       case 2:
-        teacher.output();
+        print(teacher.output());
         break;
       case 3:
         student.input();
@@ -56,10 +56,10 @@ void main(List<String> arguments) {
         student.avgMark();
         break;
       case 7:
-        student.sortByName();
+        print(student.sortByName());
         break;
       case 8:
-        teacher.sortByName();
+        print(teacher.sortByName());
         break;
     }
   } while (true);

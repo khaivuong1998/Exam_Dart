@@ -88,11 +88,11 @@ class Teacher extends Persion {
   }
 
   List<Teacher> output() {
-    List<Teacher> listTeacher1 = [];
-    for (int i = 0; i < listTeacher.length; i++) {
-      listTeacher1[i] = listTeacher[i];
-    }
-    return listTeacher1;
+    // List<Teacher> listTeacher1 = [];
+    // for (int i = 0; i < listTeacher.length; i++) {
+    //   listTeacher1[i] = listTeacher[i];
+    // }
+    return listTeacher;
   }
 
   void getSalary() {
